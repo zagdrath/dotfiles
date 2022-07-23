@@ -17,11 +17,13 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 filetype plugin indent on
 autocmd vimenter * ++nested colorscheme gruvbox
 let g:airline_theme='gruvbox'
+set background=dark
 
 " }}}
 
