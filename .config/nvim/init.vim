@@ -26,8 +26,15 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Keymaps
-behave mswin           " Select text
+behave mswin              " Select text
 set clipboard=unnamedplus " Use system clipboard
+
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
+
+imap <c-z> <c-o>:u<CR>
 
 nmap <c-s> :w<CR>         " Save in normal mode
 imap <c-s> <Esc>:w<CR>l   " Save in insert  mode
