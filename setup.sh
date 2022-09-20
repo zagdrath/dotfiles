@@ -9,7 +9,7 @@ sudo apt install fonts-powerline
 sudo cp -a $HOME/dotfiles/.config/* $HOME
 
 # Install vim plug
-curl -fLo $HOME/.config/nvim/autoload --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo $HOME/.config/nvim/site/autoload --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Install nerd fonts
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
