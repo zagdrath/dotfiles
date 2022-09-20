@@ -17,7 +17,7 @@ set encoding=utf8
 set guifont=DroidSansMono\ Nerd\ Font\ 11
 
 " Plugins
-call plug#begin('~/.config/nvim/site/autoload')
+call plug#begin('~/.config/nvim/autoload')
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
