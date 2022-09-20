@@ -2,7 +2,7 @@
 
 # Install dependencies
 sudo apt install git
-sudo apt install nvim
+sudo apt install neovim
 sudo apt install fonts-powerline
 
 # Copy dotfiles
